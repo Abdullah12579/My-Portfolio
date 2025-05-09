@@ -1,0 +1,57 @@
+#main7 {
+    display : flex;
+    justify-content: center;
+}
+
+#fileName4 {
+    margin-top : 20px;
+    font-size : 30px;
+    padding : 1rem;
+    display : flex;
+    justify-self : center;
+}
+
+#fileName4:hover {
+    border : 2px solid rgb(0, 0, 0);
+}
+
+#main8 {
+    border : 2px solid rgb(0, 0, 0);
+    border-radius : 1rem;
+    padding : 1rem;
+    background-color : lightgrey;
+    height : 350px;
+    width : 800px;
+    position : absolute;
+    margin-top : 30px;
+    left : 350px;
+}
+
+p {
+    font-size : 18px;
+}
+
+#main8 a:hover {
+    border : 2px solid rgb(0, 255, 255);
+}
+
+#lastTitle {
+    padding : 1rem;
+    display : flex;
+    justify-self : center;
+}
+
+#lastTitle:hover {
+    border : 2px solid rgb(0, 0, 0);
+}
+
+#main8 a {
+    text-decoration : none;
+    color : blue;
+}
+
+.gitHub, .fiverr, .linkedIn, .faceBook, .copyRight {
+    display : flex;
+    justify-self : center;
+    margin-top : 30px;
+}

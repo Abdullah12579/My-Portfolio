@@ -1,0 +1,66 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+#light {
+    background-color : whitesmoke;
+}
+
+#dark {
+    background-color : #0f1111;
+}
+
+.fileKeNaam {
+    color : white;
+}
+
+.navbar a, ul{
+    text-decoration : none;
+    list-style-type : none;
+    display : flex;
+    justify-content : space-evenly;
+    margin-left : 60px;
+    background-color : #333333;
+    color : #ffffff;
+    font-size : 20px;
+    padding : 5px;
+}
+
+.navbar {
+    display : flex;
+    justify-content : space-evenly;
+    background-color : #333333;
+    height : 65px;
+    align-items : center;
+    color : #fff;
+    box-shadow : 0 10px 15px rgba(0, 0, 0, 0.8);
+}
+
+.navbar h1 {
+    position : absolute;
+    left : 50px;
+    background-color : #333;
+    padding : 5px;
+}
+
+.navbar h1:hover, a:hover {
+    border : 2px solid white;
+}
+
+#themeBtn {
+    margin-top : 20px;
+    position : absolute;
+    right : 50px;
+    top : 0px;
+    font-size : 15px;
+    cursor : pointer;
+    padding : 0.5rem;
+    border-radius : 1rem;
+    border : none;
+    background-color : lightgrey;
+}
+
+#themeBtn:hover {
+    border : 3px solid rgb(255, 255, 255);
+}
